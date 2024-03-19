@@ -1,0 +1,11 @@
+<!-- <p>user-list works!</p> -->
+<ul>
+    <li *ngFor="let NameOfUser of names">
+        <app-user-item [name]="NameOfUser"></app-user-item>
+    </li>
+</ul>
+<ul>
+    <li *ngFor="let use of names">
+        {{use}}
+    </li>
+</ul>
